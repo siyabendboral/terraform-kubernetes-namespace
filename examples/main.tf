@@ -1,9 +1,5 @@
-# Usage
-
-### Please copy paste below code 
-```
 module "testns" {
-  source = "farrukh90/namespace/kubernetes"
+  source           = "../"
   name             = "testns"
   pod_quota        = 50
   pod_cpu_limit    = "2096m"
@@ -15,5 +11,3 @@ module "testns" {
     createdby = "farrukh90"
   }
 }
-
-```
