@@ -3,7 +3,7 @@
 ### Please copy paste below code 
 ```
 module "testns" {
-  source = "farrukh90/namespace/kubernetes"
+  source = "siyabendboral/namespace/kubernetes"
   name             = "testns"
   pod_quota        = 50
   pod_cpu_limit    = "2096m"
@@ -12,7 +12,7 @@ module "testns" {
     new = "application"
   }
   labels = {
-    createdby = "farrukh90"
+    createdby = "siyabendboral"
   }
 }
 
